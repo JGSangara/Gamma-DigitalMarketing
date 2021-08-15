@@ -13951,9 +13951,7 @@ button.navbar-toggler.collapsed .icon-expand {
         padding: 6px 10px;
     }
     .mobile-position {
-        position: absolute;
-        right: 60px;
-        top: 8px;
+        display: none;
     }
     .w3l-header-4 .dropdown-menu {
         transform: translateX(0px);
@@ -13973,7 +13971,7 @@ button.navbar-toggler.collapsed .icon-expand {
 
 @media (max-width: 767px) {
     .w3l-header-4 h1 a.navbar-brand {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 40px;
     }
 }
@@ -13986,7 +13984,7 @@ button.navbar-toggler.collapsed .icon-expand {
 
 @media (max-width: 480px) {
     .w3l-header-4 .navbar .navbar-brand {
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 
@@ -15505,9 +15503,27 @@ ul.social-icons li a:hover span.fa {
     background: var(--bg-color);
     border-radius: var(--border-radius);
     box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
-    width: 110%;
-    margin-left: 50%;
-    max-width: 380px;
+}
+
+@media screen and (min-width: 1400px) {
+    .contact-info {
+        width: 370px;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .contact-info {
+        width: 370px;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .contact-info {
+        width: 370px;
+        margin-left: 30%;
+    }
 }
 
 .contact a {
