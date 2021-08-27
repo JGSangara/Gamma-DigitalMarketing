@@ -15505,6 +15505,19 @@ ul.social-icons li a:hover span.fa {
     box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
 }
 
+@media screen and (min-width: 1024px) {
+    .contact-info {
+        width: 370px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .contact-info {
+        width: 370px;
+        margin-left: 13%;
+    }
+}
+
 @media screen and (min-width: 1400px) {
     .contact-info {
         width: 370px;
