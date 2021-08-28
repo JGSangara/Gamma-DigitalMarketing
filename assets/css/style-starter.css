@@ -15539,6 +15539,15 @@ ul.social-icons li a:hover span.fa {
     }
 }
 
+@media screen and (max-width: 280px) {
+    .contact-info-left {
+        margin: 1%;
+    }
+    .contact-info {
+        width: 245px;
+    }
+}
+
 .contact a {
     display: block;
     color: var(--font-color);
