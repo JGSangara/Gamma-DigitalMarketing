@@ -15535,7 +15535,17 @@ ul.social-icons li a:hover span.fa {
 @media screen and (min-width: 1920px) {
     .contact-info {
         width: 370px;
-        margin-left: 30%;
+        margin-left: 60%;
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .contact-info {
+        width: 370px;
+    }
+    .contact-info-left {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
