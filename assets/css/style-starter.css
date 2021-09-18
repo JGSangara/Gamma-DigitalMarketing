@@ -13924,7 +13924,8 @@ button.navbar-toggler.collapsed .icon-expand {
         -ms-transition: 0.5s all;
     }
     .w3l-header-4 div#navbarSupportedContent {
-        background: #000;
+        /* background: #000; */
+        background: #fff;
         padding: 15px;
     }
     .w3l-header-4 .navbar-toggler:hover {
